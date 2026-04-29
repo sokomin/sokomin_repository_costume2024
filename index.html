@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=960" />
+  <title>赤石の民衆 - 通常コスチューム素材リポジトリ</title>
+  <meta name="description" content="赤石の民衆 (sokomin.github.io) で公開している通常コスチュームの画像・GIF アセット保管庫。" />
+  <link rel="icon" href="https://sokomin.github.io/design/RedStoneLogo.png" />
+  <style>
+    body { font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+           max-width: 880px; margin: 24px auto; padding: 0 16px; color: #333; line-height: 1.7; }
+    h1 { border-bottom: 2px solid #c00; padding-bottom: 6px; }
+    h2 { border-left: 6px solid #c00; padding-left: 10px; margin-top: 28px; }
+    pre { background: #f5f5f5; padding: 10px 14px; overflow-x: auto;
+          border-left: 3px solid #999; font-size: 13px; }
+    code { background: #f5f5f5; padding: 1px 4px; }
+    .copyright { color: #c00; font-size: 13px; }
+    footer { margin-top: 40px; padding-top: 12px; border-top: 1px solid #ccc;
+             font-size: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>赤石の民衆 通常コスチューム素材リポジトリ</h1>
+
+  <p>このリポジトリは <a href="https://sokomin.github.io/">赤石の民衆 (sokomin.github.io)</a>
+  で公開している RED STONE の <strong>通常コスチューム</strong> の画像・GIF アセットを保管しています。
+  GitHub Pages 経由で <code>https://sokomin.github.io/sokomin_repository_costume2024/...</code>
+  として配信されます。</p>
+
+  <h2>収録範囲</h2>
+  <ul>
+    <li><strong>通常コスチューム</strong>: コラボ、季節限定、コンテスト、初期コスチューム等</li>
+    <li>各コスチュームは <strong>最大 11 色</strong> のバリエーションを収録</li>
+  </ul>
+  <p>強化前/強化後の 2 形態を持つ秘奥コスチュームは別リポ
+  <a href="https://github.com/sokomin/sokomin_repository_costume">sokomin_repository_costume</a>
+  に保管しています。</p>
+
+  <h2>ファイル命名規約</h2>
+  <pre>costume/
+├── &lt;name&gt;_s1.png             # デフォルト色 静止画
+├── &lt;name&gt;_s1_idle.gif         # デフォルト色 立ちアニメ
+├── &lt;name&gt;_s1_pal01.png        # 色違い (pal01〜pal10)
+├── &lt;name&gt;_s1_pal01_idle.gif
+└── ...</pre>
+
+  <ul>
+    <li><code>_pal01</code>〜<code>_pal10</code> = 色違いバリエ (デフォルト色はサフィックス無し)</li>
+    <li><code>.png</code> = 静止画 / <code>_idle.gif</code> = 立ちポーズアニメ</li>
+    <li>色違いを持たないコスチュームはデフォルト色のみ</li>
+  </ul>
+
+  <h2>使用方法</h2>
+  <p>サイト側の HTML から URL でアセットを参照してください:</p>
+  <pre>&lt;img src="https://sokomin.github.io/sokomin_repository_costume2024/costume/Knight_cos1_s1_idle.gif"&gt;</pre>
+
+  <p>一覧ページは <a href="https://sokomin.github.io/">本サイト</a> 側で生成・公開予定です。</p>
+
+  <footer>
+    <p class="copyright">
+      当サイトで利用している画像及びデータは、L&amp;K Co., Ltd.に帰属します。<br>
+      許可無くご利用又は転用する事は出来ませんので、予めご了承下さい。
+    </p>
+    <p>&copy; L&amp;K Co., Ltd. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
